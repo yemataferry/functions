@@ -1,11 +1,11 @@
-function maxNumber(a, b){
-    if (a > b){
-        return a
-    } else if(b > a){
-        return b
-    } else {
-        return " a and b are equal"
-    }
+function maxNumber (a, b) {
+  if (a > b) {
+    return a
+  } else if (b > a) {
+    return b
+  } else {
+    return 'a and b are equal'
+  }
 }
-console.log(minNumber(14,8))
-console.log(minNumber(2,7))
+console.log(maxNumber(14, 8))
+console.log(maxNumber(2, 7))
